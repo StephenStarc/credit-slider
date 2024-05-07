@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Context } from "./Context";
 
-// Define the type for the props of the ContextProvider component
+
 type ContextProviderProps = {
-  children: React.ReactNode; // Children components wrapped by the provider
+  children: React.ReactNode; 
 };
 
-// Define the credit amounts for different price options
+
 const credits = {
   5: 500,
   10: 1200,
@@ -25,7 +25,6 @@ export default function ContextProvider({ children }: ContextProviderProps) {
   const credit = Object(credits)[price];
 
   return (
-    // Provide the context value to the children components
     <Context.Provider value={{ price, setPrice, credits, credit }}>
       {children}
     </Context.Provider>
