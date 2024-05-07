@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Grid, ThemeProvider } from '@mui/material';
+import theme from './Theme';
+import AutoTopUp from './components/AutoTopUp';
+import ContextProvider from './context/ContextProvider';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    // Wrap the components with the ContextProvider and ThemeProvider
+    <ContextProvider>
+      <ThemeProvider theme={theme}>
+        {/* Grid container to center content vertically and horizontally */}
+        <Grid
+          container
+          spacing={0}
+          direction="column"
+          alignItems="center"
+          justifyContent="center"
+          sx={{ minHeight: '100vh' }}
+          
+          p={3} // Add padding to all sides of the container
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          {/* Grid item containing the AutoTopUp component */}
+          <Grid item>
+            <AutoTopUp />
+          </Grid>
+        </Grid>
+      </ThemeProvider>
+    </ContextProvider>
   );
 }
 
