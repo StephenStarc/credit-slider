@@ -1,3 +1,6 @@
+Live Site - https://bejewelled-wisp-b7e52d.netlify.app/
+Live Site 2 (UI Modified) - https://verdant-twilight-2541be.netlify.app/
+
 # Using Credit-Slider in a React Application
 
 Prerequisites
