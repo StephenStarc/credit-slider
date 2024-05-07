@@ -1,30 +1,22 @@
-Using [Your App Name] in a React Application
-Overview
-[Your App Name] is a React application that provides [brief description of your app functionality]. To use [Your App Name] within a React application, follow the instructions below.
+# Using Credit-Slider in a React Application
 
 Prerequisites
-Before using [Your App Name], ensure that you have the following installed on your computer:
+1. If don't have the project files zip than clone the Repository: Clone the credit-slider repository from (https://github.com/StephenStarc/credit-slider.git).
+   #### `git clone https://github.com/StephenStarc/credit-slider.git`
 
-Node.js and npm (Node Package Manager) or Yarn
-Git (optional, but recommended for cloning the repository)
-Installation
-To use [Your App Name] within your React application, follow these steps:
+2. Go to the project folder and run npm install
+   #### `cd credit-slider`
+   #### `npm install`
 
-Clone the Repository: Clone the [Your App Name] repository from [repository URL].
-bash
-Copy code
-git clone <repository-url>
-Navigate to the Project Directory: Change into the directory of the cloned repository.
-bash
-Copy code
-cd <repository-directory>
-Install Dependencies: Install the required dependencies using npm or Yarn.
-bash
-Copy code
-npm install
-or
-bash
-Copy code
-yarn install
-Usage
-Once you have installed the dependencies, you can use [Your App Name] within your React application
+3. Now run your app
+   #### `npm start`
+
+
+# Reactjs Installation
+
+Reactjs can be installed by using any of the following ways:
+
+1. npx
+2. npm
+3. yarn
+4. create-react-app
