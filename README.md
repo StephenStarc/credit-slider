@@ -11,12 +11,3 @@ Prerequisites
 3. Now run your app
    #### `npm start`
 
-
-# Reactjs Installation
-
-Reactjs can be installed by using any of the following ways:
-
-1. npx
-2. npm
-3. yarn
-4. create-react-app
