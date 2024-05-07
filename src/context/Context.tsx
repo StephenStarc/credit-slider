@@ -1,6 +1,5 @@
 import { createContext } from "react";
 
-// Define the type for the context data
 type ContextData = {
   price: string; // Current price
   setPrice: (price: string) => void; // Function to set the price
